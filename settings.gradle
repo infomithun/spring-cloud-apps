@@ -1,1 +1,3 @@
 rootProject.name = 'spring-cloud-samples'
+include 'discovery-server'
+
