@@ -1,4 +1,4 @@
 rootProject.name = 'spring-cloud-samples'
 include 'discovery-server'
+include 'config-server'
 include 'springjpa-service'
-

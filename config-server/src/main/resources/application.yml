@@ -1,0 +1,20 @@
+server:
+  port: 8710
+
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8700/eureka/
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/infomithun/microservices-config
+          username: info.mithun@gmail.com
+          password: Nanchil@321
+          clone-on-start: true
