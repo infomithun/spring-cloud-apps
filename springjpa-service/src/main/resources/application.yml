@@ -1,30 +1,14 @@
 server:
-  port: 8711
+  port: 0
 
 eureka:
   client:
     register-with-eureka: true
     serviceUrl:
       defaultZone: http://localhost:8700/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.uuid}
 
 spring:
   application:
     name: springjpa-service
-
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mithuns
-    username: root
-    password: Admin@123
-
-  jpa:
-    database: mysql
-    database-platform: org.hibernate.dialect.MySQL8Dialect
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-
-  data:
-    jpa:
-      repositories:
-        enabled: true

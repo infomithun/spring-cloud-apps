@@ -10,11 +10,22 @@ eureka:
 spring:
   application:
     name: config-server
+  vault:
+    host: localhost
+    port: 8200
+    scheme: http
+    authentication: TOKEN
+    token: 's.R7BPtSvd3zB7mPP8Fmg784xF'
+    application-name: config-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/infomithun/microservices-config
-          username: info.mithun@gmail.com
-          password: Nanchil@321
           clone-on-start: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
