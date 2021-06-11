@@ -23,11 +23,5 @@ spring:
       port: 8200
       scheme: http
       authentication: TOKEN
-      token: s.RJzFCNLi28zgVVuNmfaJblf9
+      token: s.3D5vCMILMcR47f4rQOG11MuN
       application-name: config-server
-
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: *
