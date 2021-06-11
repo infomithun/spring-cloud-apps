@@ -12,10 +12,13 @@
 
    *JSON file content:*
 
-   `_{
-      "spring.cloud.config.server.git.username": "USER_NAME",
-      "spring.cloud.config.server.git.password": "PASSWORD"
-      }_`
+   `{`
+
+   `"spring.cloud.config.server.git.username": "USER_NAME",`
+
+   `"spring.cloud.config.server.git.password": "PASSWORD"`
+
+   `}`
 
 4. Navigate to the path of the JSON file and execute the command 
 
