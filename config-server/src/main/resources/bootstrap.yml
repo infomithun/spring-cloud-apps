@@ -15,13 +15,13 @@ spring:
       server:
         git:
           uri: https://github.com/infomithun/microservices-config
-          username:
-          password:
+#          username:
+#          password:
           clone-on-start: true
     vault:
       host: localhost
       port: 8200
       scheme: http
       authentication: TOKEN
-      token: s.3D5vCMILMcR47f4rQOG11MuN
+      token: s.ylWiz8Y5S6X5Hsr0r1A6COJP
       application-name: config-server

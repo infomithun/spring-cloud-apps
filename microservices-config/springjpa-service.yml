@@ -1,16 +1,4 @@
-server:
-  port: 8711
-
-eureka:
-  client:
-    register-with-eureka: true
-    serviceUrl:
-      defaultZone: http://localhost:8700/eureka/
-
 spring:
-  application:
-    name: springjpa-service
-
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mithuns
