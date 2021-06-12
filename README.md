@@ -2,6 +2,23 @@
 
 
 
+## Enable Windows SubSystem for Linux and Install Ubuntu
+
+- Enable **Windows SubSystem for Linux** feature enabled in Windows
+
+  Type *Turn Windows features on or off* in windows search bar, a Window will open in that select option 	*Windows SubSystem for Linux*, and press OK, then restart your Windows machine.
+
+- Install *Ubuntu* from *Microsoft Store*
+
+
+- Update your Ubuntu packages: 
+
+  ```shell
+  sudo apt update
+  ```
+
+  
+
 ## Enable systemd
 
 Script to enable systemd support on current Ubuntu WSL2 images from the Windows store.
@@ -32,27 +49,7 @@ Script to enable systemd support on current Ubuntu WSL2 images from the Windows 
 
 ## Install MySQL
 
-##### Step 1: 
-
-Enable **Windows SubSystem for Linux** feature enabled in Windows
-
-- Type *Turn Windows features on or off* in windows search bar, a Window will open in that select option 	*Windows SubSystem for Linux*, and press OK, then restart your Windows machine.
-
-##### Step 2: 
-
-Install *Ubuntu* from *Microsoft Store*
-
-##### Step 3:
-
-Install *MySQL* on the installed Ubuntu
-
-- Update your Ubuntu packages: 
-
-  ```shell
-  sudo apt update
-  ```
-
-- Once the packages have updated, install MySQL with: 
+- Install MySQL: 
 
   ```shell
   sudo apt install mysql-server
