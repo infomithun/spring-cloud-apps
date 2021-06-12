@@ -12,3 +12,9 @@ eureka:
 spring:
   application:
     name: springjpa-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *

@@ -1,17 +1,4 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:8710
-  vault:
-    host: localhost
-    port: 8200
-    scheme: http
-    authentication: TOKEN
-    token: s.R7BPtSvd3zB7mPP8Fmg784xF
-    application-name: springjpa-service
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
+      uri: http://
