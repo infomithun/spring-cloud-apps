@@ -44,7 +44,7 @@ Install *MySQL* on the installed Ubuntu
 
   `sudo mysql`
 
--  Create the project database and table
+-  Execute the below SQL scripts to Create the project database and table
 
   ```sql
   CREATE DATABASE <DATABASE_NAME>;
